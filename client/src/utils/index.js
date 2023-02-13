@@ -6,5 +6,5 @@ export const getRandomPrompt =(prompt)=>{
     const randomPrompt=surpriseMePrompts[randomIndex]
     if(randomPrompt === prompt)return getRandomPrompt(prompt)
 
-    return randomIndex
+    return randomPrompt
 }
